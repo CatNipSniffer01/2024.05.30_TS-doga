@@ -12,16 +12,31 @@ Licenc: GNU GPL
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinto Project</title>
+    <title>Elipszoid Számítás</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">        
   </head>
   <body>
     <div class="container">
-      <h1>Sinto Project</h1>
-      <p>This is a default index.html file, which was created by the sin command.</p>
+      <h1>Elipszoid Számítás</h1>
+      <div class="form">
+        <div class="input">
+          <label for="B oldal" class="form-label">A oldal</label>
+          <input type="text" class="form-control" id="a">
+        </div>
+        <div class="input">
+          <label for="B oldal" class="form-label">B oldal</label>
+          <input type="text" class="form-control" id="b">
+        </div>
+        <div class="input">
+          <label for="C oldal" class="form-label">C oldal</label>
+          <input type="text" class="form-control" id="c">
+        </div>
+        <div>
+          <button class="btn btn-primary mt-2" id="calcButton">Számítás</button>
+        </div>
+      </div>
     </div>
     <script type="module" src="app.js"></script>
   </body>
 </html>
-
