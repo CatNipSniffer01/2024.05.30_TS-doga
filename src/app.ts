@@ -1,1 +1,9 @@
-//asdasdasdasd
+/*
+* File: app.ts & app.js
+* Author: Czövek Balázs
+* Copyright: 2024, Czövek Balázs
+* Group: Szoft I/1/N
+* Date: 2024-05-30
+* Github: https://github.com/CatNipSniffer/
+* Licenc: GNU GPL
+*/
