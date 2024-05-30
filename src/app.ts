@@ -7,6 +7,15 @@
 * Github: https://github.com/CatNipSniffer/
 * Licenc: GNU GPL
 */
+const AInput = Number(document.querySelector('#a'))
+const BInput = Number(document.querySelector('#b'))
+const CInput = Number(document.querySelector('#c'))
+const VolumeOutput = Number(document.querySelector('#Volume'))
+
+
+function TerfogatSzamitas(){
+    VolumeOutput = 4/3*(Math.PI*AInput*BInput*CInput)
+}
 
 class Ellipsoid{
      aInput?: HTMLInputElement | null;
@@ -37,8 +46,7 @@ class Ellipsoid{
     }
     calcVolume(a: number, b: number, c: number): number{
         return (4 / 3) * Math.PI * a * b * c;
-    }
-    renderResult(volume: number){
+    }renderResult(volume: number){
         if (this.volumeInput)
         { this.volumeInput.value = String(volume);
         }

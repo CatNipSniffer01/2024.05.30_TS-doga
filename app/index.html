@@ -21,19 +21,23 @@ Licenc: GNU GPL
       <h1>Elipszoid Számítás</h1>
       <div class="form">
         <div class="input">
-          <label for="B oldal" class="form-label">A oldal</label>
-          <input type="text" class="form-control" id="a">
+          <label for="a" class="form-label">A oldal</label>
+          <input type="number" class="form-control" id="a" required>
         </div>
         <div class="input">
-          <label for="B oldal" class="form-label">B oldal</label>
-          <input type="text" class="form-control" id="b">
+          <label for="b" class="form-label">B oldal</label>
+          <input type="number" class="form-control" id="b" required>
         </div>
         <div class="input">
-          <label for="C oldal" class="form-label">C oldal</label>
-          <input type="text" class="form-control" id="c">
+          <label for="c" class="form-label">C oldal</label>
+          <input type="number" class="form-control" id="c" required>
         </div>
         <div>
-          <button class="btn btn-primary mt-2" id="calcButton">Számítás</button>
+          <button class="btn btn-primary mt-2" id="Szamit">Számítás</button>
+        </div>
+        <div class="response">
+          <p>Az Elipszoid térfogata: </p>
+          <input type="number" id="Volume" readonly>
         </div>
       </div>
     </div>
